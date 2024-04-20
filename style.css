@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik+Mono+One&display=swap');
+
+@font-face {
+    font-family: pixel;
+    src: url(assets/VCRosdNEUE.ttf);
+}
+
+
+body {
+    font-family: sans-serif;
+    font-weight: 800;
+    background-color: #1b2631;
+    color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: white;
+    font-weight: 800;
+}
+
+/* navbar-brand {
+    font-family: sans-serif;
+    font-weight: 800;
+}*/
+
+
+.navbar-nav {
+    /* transform: translateX(1150px); */
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+.navbar .nav-link:hover {
+    color: #639bff !important;
+}
+
+.full-height {
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* flex-direction: column;
+    justify-content: center; */
+    padding-top: 70px;
+    padding-bottom: 80px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.greeting-emoji:hover {
+    animation: shake 0.8s;
+}
+
+.btn {
+    padding: 12px 32px;
+    font-weight: 800;
+    /* font-family: sans-serif !important; */
+}
+
+.btn-primary {
+    background-color: #7300bf;
+    border-color: #7300bf;
+}
+
+.btn-secondary {
+    margin-inline-start: 8px;
+
+}
+
+#project-title {
+    text-align: center;
+}
+
+.bg-base {
+    background-color: #212529;
+}
+
+.shadow-effect {
+    transition: all 0.5s;
+}
+
+.shadow-effect:hover {
+    box-shadow: -6px 6px 0 0 #7300bf;
+}
+
+.iconbox {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    background-color: #639bff;
+    color: #1b2631;
+}
+
+.modal-body {
+    color: #212529;
+}
+
+footer {
+    background-color: #212529;
+}
+
+.social-icons a {
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1b2631;
+    color: #639bff;
+    border-radius: 100px;
+    font-size: 24px;
+}
+
+.mb-0 {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+
+    a {
+        
+        text-decoration: none;
+    }
+}
