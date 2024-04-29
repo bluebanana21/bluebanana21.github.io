@@ -7,7 +7,7 @@
 
 
 body {
-    font-family: sans-serif;
+    font-family: pixel;
     font-weight: 800;
     background-color: #1b2631;
     color: white;
@@ -28,6 +28,9 @@ h6 {
     font-weight: 800;
 }*/
 
+.nav-item{
+    font-family: pixel;
+}
 
 .navbar-nav {
     /* transform: translateX(1150px); */
